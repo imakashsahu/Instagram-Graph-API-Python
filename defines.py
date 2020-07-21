@@ -4,15 +4,15 @@ import json
 def getCreds() :
 
 	creds = dict() # dictionary to hold everything
-	creds['access_token'] = 'EAAKeNEINqmwBAJts9o23ZCXAl66YBCLFQxTuHlTXsA6U5oVa3Fm7vch3AkoxURk8e427V9MbX0sHSwaiQ8CtZBojopZABbxZBTc4j0JNxYaI88NcgiZCxdU3jDLIKedmPK0DXITLZBJUhDY4d6ZCBDDrejaZBYAFZB65ybCILSHyYagZDZD' # access token for use with all api calls
-	creds['client_id'] = '736897237101164' # client id from facebook app IG Graph API Test
-	creds['client_secret'] = '0d08cbbb40c805926931849a95fc5d25' # client secret from facebook app
+	creds['access_token'] = 'your-access-token' # access token for use with all api calls
+	creds['client_id'] = 'your-client-id' # client id from facebook app IG Graph API Test
+	creds['client_secret'] = 'your-client-secret' # client secret from facebook app
 	creds['graph_domain'] = 'https://graph.facebook.com/' # base domain for api calls
 	creds['graph_version'] = 'v7.0' # version of the api we are hitting
 	creds['endpoint_base'] = creds['graph_domain'] + creds['graph_version'] + '/' # base endpoint with domain and version
 	creds['debug'] = 'no' # debug mode for api call
-	creds['page_id'] = '100760741699255' # users page id after running the "get_user_facebook_page.py"
-	creds['instagram_account_id'] = '17841406228315535' # users instagram account id after running the "get_user_instagram_page.py"
+	creds['page_id'] = 'your-page-id' # users page id after running the "get_user_facebook_page.py"
+	creds['instagram_account_id'] = 'your-instagram-id' # users instagram account id after running the "get_user_instagram_page.py"
 	creds['ig_username'] = 'imakashsahu' # ig username to get details
 
 	return creds
