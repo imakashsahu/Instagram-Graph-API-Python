@@ -34,7 +34,7 @@ This Repository Focus on the New ***Instagram Graph API*** and ***Fetches*** the
 16. Now Enter the Instagram Hashtag you wish to fetch Post of in the ***ig_hashtag_input.csv*** file
 17. Now run ***hashtag_discovery_recent_media.py*** to fetch the details of the usernames you entered in the ***ig_hashtag_input.csv*** file
 18. Now open the ***ig_hashtag_top_media.csv*** newly created and verify for desired results
-19. 17. Now run ***hashtag_discovery_top_media.py*** to fetch the details of the usernames you entered in the ***ig_hashtag_input.csv*** file
+19. Now run ***hashtag_discovery_top_media.py*** to fetch the details of the usernames you entered in the ***ig_hashtag_input.csv*** file
 20. Now open the ***ig_hashtag_top_media.csv*** newly created and verify for desired results
 
 
